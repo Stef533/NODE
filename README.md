@@ -30,4 +30,6 @@ Nomi Branch:
 
 --exercise-15/Postgres
 
---exercise-16/Upload
+--exercise-16/upload-file
+
+--exercise-17/JWT-1
