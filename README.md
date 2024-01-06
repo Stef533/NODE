@@ -33,3 +33,7 @@ Nomi Branch:
 --exercise-16/upload-file
 
 --exercise-17/JWT-1
+
+--exercise-18/JWT-2
+
+--exercise-19/JWT-3
