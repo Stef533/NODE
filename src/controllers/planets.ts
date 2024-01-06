@@ -55,7 +55,7 @@ const create = (req : Request, res : Response) => {
 const updateById = (req : Request, res : Response) => {
     const {id} = req.params
     const {name} = req.body
-    db.none(`UPDATE planets SET name=$2 WHERE id=$1`)
+    db.none(`UPDATE planets SET name=$2 WHERE id=$1`, [id, name])
     res.status(200).json({ msg: "The planet was updated." })
 }
 
