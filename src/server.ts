@@ -26,6 +26,7 @@ const app = express()
 const port = 3000
 
 app.use('/uploads', express.static('uploads'))
+app.use('/static', express.static('static'))
 
 app.use(morgan('dev'));
 app.use(express.json())
